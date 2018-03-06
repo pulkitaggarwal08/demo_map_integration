@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <group
+            android:id="@+id/nav_g1"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_1"
+                android:title="nav_1"/>
+            <item
+                android:id="@+id/nav_2"
+                android:title="nav_2"/>
+        </group>
+        <group
+            android:id="@+id/nav_g2"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_3"
+                android:title="nav_3"/>
+            <item
+                android:id="@+id/nav_4"
+                android:title="nav_4"/>
+        </group>
+    </group>
+    <item android:title="Actions">
+        <menu>
+            <item
+                android:id="@+id/nav_7"
+                android:title="nav_7"/>
+            <item
+                android:id="@+id/nav_8"
+                android:title="nav_8"/>
+        </menu>
+    </item>
+</menu>
+
+

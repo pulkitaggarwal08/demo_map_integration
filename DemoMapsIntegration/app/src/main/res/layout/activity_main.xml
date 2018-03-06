@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_layers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Layers"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/tv_layers"
+        android:layout_margin="5dp"
+        android:background="#000" />
+
+    <TextView
+        android:id="@+id/tv_user_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line1"
+        android:padding="5dp"
+        android:text="Get User Location"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/tv_user_location"
+        android:layout_margin="5dp"
+        android:background="#000" />
+
+    <TextView
+        android:id="@+id/tv_search_single_place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line2"
+        android:padding="5dp"
+        android:text="Search Single Place, Custom Information"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <View
+        android:id="@+id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/tv_search_single_place"
+        android:layout_margin="5dp"
+        android:background="#000" />
+
+    <TextView
+        android:id="@+id/tv_distance_duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line3"
+        android:padding="5dp"
+        android:text="Distance and Duration"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <View
+        android:id="@+id/line4"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/tv_distance_duration"
+        android:layout_margin="5dp"
+        android:background="#000" />
+
+    <TextView
+        android:id="@+id/tv_near_places"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line4"
+        android:padding="5dp"
+        android:text="Near Places"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <View
+        android:id="@+id/line5"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/tv_near_places"
+        android:layout_margin="5dp"
+        android:background="#000" />
+
+    <TextView
+        android:id="@+id/tv_directions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line5"
+        android:padding="5dp"
+        android:text="Directions (Direct method)"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <View
+        android:id="@+id/line6"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/tv_directions"
+        android:layout_margin="5dp"
+        android:background="#000" />
+
+    <TextView
+        android:id="@+id/tv_moving_vehicle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line6"
+        android:padding="5dp"
+        android:text="Moving Vehicle"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <View
+        android:id="@+id/line7"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/tv_moving_vehicle"
+        android:layout_margin="5dp"
+        android:background="#000" />
+
+
+</RelativeLayout>
+
+
+
+
+
+

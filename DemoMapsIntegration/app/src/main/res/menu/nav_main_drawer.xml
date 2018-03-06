@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <group
+            android:id="@+id/nav_g1"
+            android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/nav_your_places"
+                android:icon="@drawable/ic_place"
+                android:title="Your Places" />
+
+            <item
+                android:id="@+id/nav_your_timeline"
+                android:title="Your timeline" />
+        </group>
+
+        <group
+            android:id="@+id/nav_g2"
+            android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/nav_traffic"
+                android:icon="@drawable/ic_traffic"
+                android:title="Traffic" />
+
+            <item
+                android:id="@+id/nav_building"
+                android:title="Building" />
+
+            <item
+                android:id="@+id/nav_indoor"
+                android:title="Indoor" />
+
+        </group>
+
+        <group
+            android:id="@+id/nav_g3"
+            android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/nav_normal"
+                android:title="Normal" />
+            <item
+                android:id="@+id/nav_hybrid"
+                android:title="Hybrid" />
+            <item
+                android:id="@+id/nav_satellite"
+                android:icon="@drawable/ic_satellite"
+                android:title="Satellite" />
+            <item
+                android:id="@+id/nav_terrian"
+                android:icon="@drawable/ic_terrain"
+                android:title="Terrian" />
+
+        </group>
+
+        <group
+            android:id="@+id/nav_g4"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_tips"
+                android:title="@string/tips_tricks" />
+            <item
+                android:id="@+id/nav_settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_help"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_terms_services"
+                android:title="Terms of Service" />
+        </group>
+
+
+    </group>
+</menu>

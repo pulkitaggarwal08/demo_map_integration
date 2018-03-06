@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DemoMapsIntegration</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!--
+    ================================================================================================
+    Navigation Items String
+    ================================================================================================
+    -->
+
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="tips_tricks"><![CDATA[Tips & Tricks]]></string>
+
+</resources>

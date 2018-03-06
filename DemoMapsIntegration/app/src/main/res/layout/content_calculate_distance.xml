@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:menu="@menu/nav_main_drawer">
+
+    <fragment
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@null"
+        android:gravity="center"
+        android:theme="@style/MyDarkToolbarStyle"
+        app:popupTheme="@style/MyDarkToolbarStyle">
+
+    </android.support.v7.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/editText_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/search_background"
+        android:hint="Find a place by name"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:minHeight="?attr/actionBarSize"
+        android:paddingBottom="8dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/medium_grey" />
+
+</RelativeLayout>
